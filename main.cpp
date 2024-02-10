@@ -17,7 +17,9 @@ int main() {
     int sum = 0;
     while (number > 0) {
         sum += number % 10; // додаємо останню цифру
+        //cout << number % 10 << endl;
         number =  number / 10; // відкидаємо останню цифру
+        //cout << number/10 << endl;
     }
     cout << "The sum of the digits is: " << sum << endl;
     return 0;
